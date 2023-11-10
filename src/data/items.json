@@ -1,0 +1,34 @@
+
+ [
+    {
+        "id": 1,
+        "name": "Hair",
+        "price": 20.00,
+        "imgUrl": "/image/hair.jpg"
+        
+    },
+
+    {
+        "id": 2,
+        "name": "esthey",
+        "price": 3333,
+        "imgUrl": "/image/ha.jpg"
+         
+    },
+
+    {
+        "id": 3,
+        "name": "esthey",
+        "price": 1113,
+        "imgUrl": "/image/bg.jpg"
+         
+    },
+
+    {
+        "id": 4,
+        "name": "Hair",
+        "price": 2222,
+        "imgUrl": "/image/johnny.PNG"
+         
+    }
+]
