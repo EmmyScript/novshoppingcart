@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom"
-import { Container } from "react-bootstrap"
+import { Container, Row } from "react-bootstrap"
 import Home from "./pages/Home"
 import Store from "./pages/Store"
 import About from "./pages/About"
@@ -11,9 +11,10 @@ import { ShoppingCartProvider } from "./context/ShoppingCartContext"
 const App = () => {
   return (
     < ShoppingCartProvider>
+   
+    <Container className="  mb-4">
+      <Row>
     <Navbar/>
-    <Container className="mb-4">
-      
       <Routes>
         
         <Route path="/" element ={<Home/>} />
@@ -21,7 +22,9 @@ const App = () => {
         <Route path="/about" element ={<About/>} />
 
       </Routes>
+      </Row>
     </Container>
+    
     
     </ ShoppingCartProvider>
   )

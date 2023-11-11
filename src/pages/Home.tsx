@@ -1,8 +1,13 @@
+import { ShoppingCart } from "../components/ShoppingCart"
+
+
 
 
 export const Home = () => {
   return (
-    <div>Home</div>
+    <><div>Home</div>
+    <ShoppingCart isOpen={false}/>
+    </>
   )
 }
 
