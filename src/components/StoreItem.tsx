@@ -25,7 +25,7 @@ export function StoreItem({ id, name, price, imgUrl,  }: StoreItemProps) {
   return (
     <Row>
     <Card className="h-100">
-      <h3 className="text-center mb-4"> <span><BsAlarm/> For Shopping</span>
+      <h3 className="text-center mb-4"> <span><BsAlarm/> For Shopping pls</span>
       <Card.Img
         variant="top"
         src={imgUrl}
