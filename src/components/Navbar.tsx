@@ -7,7 +7,7 @@ const Navbar = () => {
 
   const {openCart, cartQuantity} = useShoppingCart()
   return (
-    <NavbarBs  sticky= "top" className=" containers-fliud wbg-white shadow-lg mb-3">
+    <NavbarBs  sticky= "top" className="  bg-white shadow-lg mb-3">
       <Container>
         <Nav className="me-auto">
           <Nav.Link to="/" as={NavLink}>
@@ -16,7 +16,7 @@ const Navbar = () => {
 
           <Nav.Link to="/store" as={NavLink}>
             Store
-          </Nav.Link>
+          </Nav.Link>  
 
           <Nav.Link to="/about" as={NavLink}>
             About
@@ -39,7 +39,8 @@ const Navbar = () => {
 
             {cartQuantity}
           </div>
-        </Button>)}
+        </Button>
+        )}
         
       </Container>
     </NavbarBs>

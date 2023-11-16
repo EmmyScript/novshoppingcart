@@ -26,9 +26,25 @@
 
     {
         "id": 4,
-        "name": "Hair",
-        "price": 2222,
-        "imgUrl": "/image/johnny.PNG"
+        "name": "EASYWEAR",
+        "price": 2500,
+        "imgUrl": "/image/easy1.jpg"
+         
+    },
+
+    {
+        "id": 5,
+        "name": "EASYWEAR",
+        "price": 3000,
+        "imgUrl": "/image/easy2.jpg"
+         
+    },
+    
+    {
+        "id": 6,
+        "name": "EASYWEAR",
+        "price": 3000,
+        "imgUrl": "/image/easy4.jpg"
          
     }
 ]

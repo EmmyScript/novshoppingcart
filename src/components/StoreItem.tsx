@@ -1,4 +1,4 @@
-import { Button, Card, Row } from "react-bootstrap";
+import { Button, Card,  } from "react-bootstrap";
 import { CurrencyFormat } from "../utilities/CurrencyFormat";
 import { useShoppingCart } from "../context/ShoppingCartContext";
 import{BsAlarm} from "react-icons/bs"
@@ -23,9 +23,9 @@ export function StoreItem({ id, name, price, imgUrl,  }: StoreItemProps) {
 
   console.log(cartItems)
   return (
-    <Row>
+    
     <Card className="h-100">
-      <h3 className="text-center mb-4"> <span><BsAlarm/> For Shopping pls</span>
+      <h3 className="text-center mb-4"> <span><BsAlarm/>$</span>
       <Card.Img
         variant="top"
         src={imgUrl}
@@ -66,6 +66,6 @@ export function StoreItem({ id, name, price, imgUrl,  }: StoreItemProps) {
         </div>
       </Card.Body>
     </Card>
-    </Row>
+  
   );
 }
