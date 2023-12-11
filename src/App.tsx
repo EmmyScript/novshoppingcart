@@ -8,8 +8,10 @@ import "react-icons"
 import { ShoppingCartProvider } from "./context/ShoppingCartContext"
 
 
+
 const App = () => {
   return (
+    <>
     < ShoppingCartProvider>
    
     <Container className="  mb-4">
@@ -27,6 +29,8 @@ const App = () => {
     
     
     </ ShoppingCartProvider>
+    
+    </>
   )
 }
 

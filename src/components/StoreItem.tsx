@@ -1,7 +1,7 @@
 import { Button, Card,  } from "react-bootstrap";
 import { CurrencyFormat } from "../utilities/CurrencyFormat";
 import { useShoppingCart } from "../context/ShoppingCartContext";
-import{BsAlarm} from "react-icons/bs"
+
 
 type StoreItemProps = {
   id: number;
@@ -25,14 +25,16 @@ export function StoreItem({ id, name, price, imgUrl,  }: StoreItemProps) {
   return (
     
     <Card className="h-100">
-      <h3 className="text-center mb-4"> <span><BsAlarm/>$</span>
+      
       <Card.Img
         variant="top"
+        className="rounded-circles"
         src={imgUrl}
-        height="200px"
-        style={{ objectFit: "cover" }}
+        height="300px"
+        
+        style={{ objectFit: "cover"}}
       />
-</h3>
+
       <Card.Body className="d-flex flex-column">
         <Card.Title className="d-flex justify-content-between align-items-baseline mb-4">
           <span className="fs-2">{name}</span>

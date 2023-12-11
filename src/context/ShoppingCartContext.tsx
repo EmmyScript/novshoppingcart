@@ -27,7 +27,7 @@ export const ShoppingCartContext = createContext({} as
   ShoppingCartContext);
 
 export function useShoppingCart() {
-  return useContext(ShoppingCartContext);
+  return useContext(ShoppingCartContext); 
 }
 
 export function ShoppingCartProvider({ children }: 
