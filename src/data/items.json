@@ -2,25 +2,25 @@
  [
     {
         "id": 1,
-        "name": "Hair",
-        "price": 20.00,
-        "imgUrl": "/image/hair.jpg"
+        "name": " For Sale",
+        "price": 2000.00,
+        "imgUrl": "/image/lion.PNG"
         
     },
 
     {
         "id": 2,
-        "name": "esthey",
+        "name": " FOR SALE",
         "price": 3333,
-        "imgUrl": "/image/ha.jpg"
+        "imgUrl": "/image/goats.PNG"
          
     },
   
     {
         "id": 3,
-        "name": "esthey",
+        "name": " 4 Sale",
         "price": 1113,
-        "imgUrl": "/image/bg.jpg"
+        "imgUrl": "/image/goat2.PNG"
          
     },
 
