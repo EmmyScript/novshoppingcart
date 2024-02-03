@@ -2,49 +2,49 @@
  [
     {
         "id": 1,
-        "name": " For Sale",
+        "name": "Rice",
         "price": 2000.00,
-        "imgUrl": "/image/lion.PNG"
+        "imgUrl": "/image/rice.PNG"
         
     },
 
     {
         "id": 2,
-        "name": " FOR SALE",
-        "price": 3333,
-        "imgUrl": "/image/goats.PNG"
+        "name": " Beans",
+        "price": 4500,
+        "imgUrl": "/image/ben.PNG"
          
     },
   
     {
         "id": 3,
-        "name": " 4 Sale",
-        "price": 1113,
-        "imgUrl": "/image/goat2.PNG"
+        "name": "melon",
+        "price": 400,
+        "imgUrl": "/image/melon.PNG"
          
     },
 
     {
         "id": 4,
-        "name": "EASYWEAR",
-        "price": 2500,
-        "imgUrl": "/image/easy1.jpg"
+        "name": "ogbono",
+        "price": 1100,
+        "imgUrl": "/image/ogbono.PNG"
          
     },
 
     {
         "id": 5,
-        "name": "EASYWEAR",
-        "price": 3000,
-        "imgUrl": "/image/easy2.jpg"
+        "name": "oil",
+        "price": 2500,
+        "imgUrl": "/image/oil.PNG"
          
     },
     
     {
         "id": 6,
-        "name": "EASYWEAR",
-        "price": 3000,
-        "imgUrl": "/image/easy4.jpg"
+        "name": "Crayfish",
+        "price": 200,
+        "imgUrl": "/image/kfish.PNG"
          
     }
 ]
